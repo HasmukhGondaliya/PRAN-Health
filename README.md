@@ -2,25 +2,6 @@
 
 Home fitness and pure-vegetarian nutrition for Gujarat, in Gujarati, Hindi and English. It's a single self-contained `index.html` with no build step, no backend, no account and no tracking.
 
-## Deploy to GitHub Pages (existing repo `PRAN_health`)
-
-1. Keep a copy of the current app first, for example by renaming the existing `index.html` to `legacy.html`.
-2. Put this `index.html` (and this README) in the repository root and commit.
-3. In the repository, go to **Settings → Pages** and set **Source: Deploy from a branch**, **Branch: `main` / root**.
-4. Open `https://hasmukhgondaliya.github.io/PRAN_health/`.
-
-You don't need to configure a base path. All navigation uses hash routes (`#/diet`, `#/exercise/squat`), and every illustration is drawn in code, so there are no asset paths to break under `/PRAN_health/`.
-
-The only external request is Google Fonts (Baloo Bhai 2, Baloo 2, Mukta Vaani, Mukta). If it's blocked or the connection is slow, system fonts are used instead.
-
-## Run locally
-
-Open `index.html` directly, or serve it:
-
-```
-python3 -m http.server 8000   # then visit http://localhost:8000
-```
-
 ## What's included
 
 - **Home**:
